@@ -1,0 +1,32 @@
+{
+  "name": "iwantajob",
+  "version": "1.0.0",
+  "description": "Job scraping application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuChenHeMTL/IWantAJob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuChenHeMTL/IWantAJob/issues"
+  },
+  "homepage": "https://github.com/YuChenHeMTL/IWantAJob#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.1",
+    "puppeteer": "^2.0.0",
+    "puppeteer-cluster": "^0.20.0"
+  }
+}
